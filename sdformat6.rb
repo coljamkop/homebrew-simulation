@@ -20,7 +20,7 @@ class Sdformat6 < Formula
   depends_on "doxygen"
   depends_on "ignition-math4"
   depends_on "pkg-config"
-  depends_on "ros/deps/urdfdom" => :optional
+  depends_on "urdfdom" => :optional
   depends_on "tinyxml"
 
   conflicts_with "sdformat", :because => "Differing version of the same formula"
